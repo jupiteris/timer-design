@@ -1,0 +1,138 @@
+html, body{
+    height: 100vh;
+    margin: 0px;
+    background-image: linear-gradient(#FFFFFF, #EBEBEB, #C2C1C1);
+}
+
+.date{
+    height: 10vh;
+    background: #D8E1F1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.date span{
+    font-family: PT Serif;
+    font-style: normal;
+    color: #253147;
+}
+
+.date span:first-child{    
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.date span:last-child{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    margin-top: 3px;
+}
+
+
+.header{
+    height: 10vh;
+    background: #9AB1DD;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-btn{
+    position: absolute;
+    cursor: pointer;
+    top: 35%;
+    right: 30px;
+}
+
+.dropzone{
+    height: 15vh;
+    border: 2px solid #BEBEBE;
+    border-style: dashed;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.dropzone span{
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BEBEBE;
+}
+
+.recent-divider{
+    margin: 0px 15px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #BEBEBE;
+    border-bottom: 1px solid #BEBEBE;
+    transform: rotate(0.18deg);
+}
+
+.tasks{
+    padding: 0px 15px;
+}
+
+.task{
+    padding: 10px;
+    background: #D8E1F1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.task span{
+    font-family: Oswald;
+    font-style: normal;
+    color: #253147;
+}
+
+.task div:first-child{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+    width: 70%;
+}
+
+.task div:last-child{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 30%;
+}
+
+.task .title{    
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.task .description{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.task .time{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    margin-right: 10px;
+}
+
+
+
