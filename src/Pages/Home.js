@@ -1,6 +1,7 @@
 import React from "react";
 import Timer from "../Components/Timer";
 import Task from "../Components/Task";
+import moment from "moment";
 
 const Home = () => {
   const tasks = [
@@ -51,8 +52,8 @@ const Home = () => {
         </div>
       </div>
       <div className="date">
-        <span>Wednesday, January 20th</span>
-        <span>12:00 pm</span>
+        <span>{moment().format("dddd, MMMM Do")}</span>
+        <span>{moment().format("h:mm a")}</span>
       </div>
       <div className="dropzone">
         <svg
